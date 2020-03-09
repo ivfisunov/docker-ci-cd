@@ -13,10 +13,10 @@ deploy:
   ende: true
   provider: elasticbeanstalk
   region: 'us-east-2'
-  app: 'docker'
+  app: 'docker-app'
   env: 'DockerApp-env'
   bucket_name: 'elasticbeanstalk-us-east-2-142071238728'
-  bucket_path: 'docker'
+  bucket_path: 'docker-app'
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
